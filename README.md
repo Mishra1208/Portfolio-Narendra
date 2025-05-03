@@ -1,6 +1,6 @@
 # Narendra Mishra | Portfolio Website
 
-This is my personal portfolio website, showcasing my projects, skills, education, and certifications. Built using **HTML**, **CSS**, **JavaScript**, and a touch of **Node.js**, it reflects my passion for software development and clean, interactive design.
+This is my personal portfolio website, showcasing my projects, skills, education, and certifications. Built using **HTML**, **CSS**,and **JavaScript**, it reflects my passion for software development and clean, interactive design.
 
 ## 🌐 Live Website
 👉 [Visit my portfolio](https://mishra1208.github.io/Portfolio-Narendra/)
