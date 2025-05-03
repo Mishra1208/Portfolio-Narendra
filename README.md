@@ -11,7 +11,6 @@ This is my personal portfolio website, showcasing my projects, skills, education
 - HTML5 CSS3 (with responsive design + animations)
 - CSS3 (with responsive design + animations)
 - JavaScript (Vanilla)
-- AOS (Animate On Scroll)
 - GitHub Pages (for deployment)
 
 ## 📄 Features
