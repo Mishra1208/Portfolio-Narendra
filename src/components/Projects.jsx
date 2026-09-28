@@ -49,7 +49,7 @@ export default function Projects() {
                     )}
                     {p.github && (
                       <a href={p.github} target="_blank" rel="noreferrer" className="btn btn-white">
-                        Source ↗
+                        Source code ↗
                       </a>
                     )}
                   </div>

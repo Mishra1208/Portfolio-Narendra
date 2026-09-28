@@ -1,6 +1,5 @@
 // ─────────────────────────────────────────────────────────────
 //  All site content lives here. Edit this file to update the site.
-//  Replace the `github` / `live` links below with your real repo + app URLs.
 // ─────────────────────────────────────────────────────────────
 
 import photo from "./assets/profile.webp";
@@ -17,7 +16,7 @@ export const profile = {
   ],
   headline: "I build for real users.",
   tagline:
-    "Computer Science graduate from Concordia University in Montréal. I build multi-agent AI systems, cloud-first web platforms and interactive 3D on the web.",
+    "Freshly graduated CS nerd from Concordia, Montréal. I build AI agents that cite their sources, web apps 5,000+ students actually use, and 3D things mostly because it's fun.",
   location: "Montréal, QC",
   status: "Open to software & AI engineering roles",
   email: "mishranarendra1208@gmail.com",
@@ -50,10 +49,10 @@ export const services = [
 ];
 
 export const stats = [
-  { value: 5000, suffix: "+", label: "active students on ConU Planner" },
-  { value: 7900, suffix: "+", label: "courses mapped in a prerequisite DAG" },
-  { value: 100, suffix: "%", label: "citation grounding in FinAgent" },
-  { value: 500, suffix: "+", label: "attendees at events I've run" },
+  { value: 5000, suffix: "+", label: "students planning their degree on ConU Planner" },
+  { value: 7900, suffix: "+", label: "courses in my prerequisite graph (topological sort, finally useful)" },
+  { value: 100, suffix: "%", label: "of FinAgent answers carry a citation. No making stuff up." },
+  { value: 500, suffix: "+", label: "people at events I've run (way harder than debugging)" },
 ];
 
 export const education = {
@@ -88,8 +87,8 @@ export const projects = [
       "Hybrid RAG fusing ChromaDB dense vectors with BM25 keyword search via Reciprocal Rank Fusion — every answer carries a verified citation.",
       "Deterministic Python math sandbox for YoY growth, operating margins and leverage ratios, behind prompt-injection defense, PII scrubbing and Pydantic validation.",
     ],
-    github: "https://github.com/Mishra1208",
-    live: "",
+    github: "https://github.com/Mishra1208/FinAgent",
+    live: "https://finagentai.streamlit.app/",
   },
   {
     id: "conu",
@@ -105,8 +104,8 @@ export const projects = [
       "Topological-sort Degree Pathfinder over a prerequisite DAG of 7,900+ courses, generating optimal graduation schedules for CS and 6+ engineering programs.",
       "Chrome MV3 extension + client-side PDF.js parser that imports PeopleSoft transcripts in under 60 s; Puppeteer scrapers with dynamic rate-limiting watch seat availability.",
     ],
-    github: "https://github.com/Mishra1208",
-    live: "",
+    github: "https://github.com/Mishra1208/conuplanner",
+    live: "https://www.conuplanner.com/",
   },
   {
     id: "aacharya",
@@ -122,8 +121,8 @@ export const projects = [
       "Interactive 3D solar system in React Three Fiber with GPU-accelerated starfields and real-time mouse-repulsion physics.",
       "Procedural SVG renderer drawing 12 celestial houses at runtime, plus a 36-point compatibility algorithm running in real time.",
     ],
-    github: "https://github.com/Mishra1208",
-    live: "",
+    github: "https://github.com/Mishra1208/astroweb",
+    live: "https://acharyarajkumar.vercel.app/",
   },
 ];
 
